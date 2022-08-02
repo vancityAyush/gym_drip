@@ -106,7 +106,7 @@ class _AccountFragmentState extends State<AccountFragment> {
                                   SizedBox(
                                     height: 3,
                                   ),
-                                  Text("Tws Code: " + trainerCode.toString()),
+                                  Text("Code: " + trainerCode.toString()),
                                   SizedBox(
                                     height: 20,
                                   )
@@ -277,7 +277,7 @@ class _AccountFragmentState extends State<AccountFragment> {
                         height: 27,
                       ),
                       title: Text(
-                        "Tws Virtual Office",
+                        "Virtual Office",
                         style: TextStyle(
                             fontSize:
                                 16 * MediaQuery.of(context).textScaleFactor,
